@@ -1,24 +1,63 @@
 * {
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  color: rgb(87, 44, 44)
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: black;
+  box-sizing: border-box;
+  top: 0;
+  margin: 0;
 }
 
 body {
-  background-color: rgb(235, 214, 175);
+  background-color: white;
+  padding: 16px 32px;
 }
 
 h1 {
-  color: rgb(46, 22, 22);
+  margin: 32px;
+  font-size: 48px;
+  text-align: center;
 }
 
 img {
-  width: 300px;
-  height: auto;
+  width: 240px;
+  height: 240px;
+  object-fit: cover;
+  border-radius: 24px;
+  display: block;
+  margin: 0 auto 24px;
 }
 
 a {
-  font-size: 18px;
+  font-size: 24px;
   font-weight: bold;
-  color: rgb(87, 44, 44);
   text-decoration: none;
+}
+
+h2 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 24px;
+}
+
+ul,
+ol {
+  padding-left: 16px;
+}
+
+.card {
+  background-color: rgb(216, 203, 182);
+  border-radius: 24px;
+  padding: 32px;
+  margin: 16px auto;
+  max-width: 800px;
+}
+
+.recipe-list {
+  text-align: center;
+}
+
+.recipe-list li {
+  display: inline-block;
+  list-style: none;
+  text-align: center;
+  margin: 16px;
 }
